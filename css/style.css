@@ -1,0 +1,16 @@
+body {
+    font-size: 0.875rem;
+}
+
+#searchInp {
+    width: 180px;
+}
+
+.myBtn {
+    min-width: 68px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
