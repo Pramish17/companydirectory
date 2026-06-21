@@ -1,16 +1,26 @@
+html,
 body {
-    font-size: 0.875rem;
+  background-color: #f9f6ee;
+  margin: 5px 0px 5px 2px;
+  padding: 5px 0px 5px 2px;
+  overflow: hidden;
 }
 
-#searchInp {
-    width: 180px;
+section {
+  display: flex;
+  flex-flow: column;
+  height: calc(100vh - 20px);
+}
+
+.tab-content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+tr {
+  cursor: default;
 }
 
 .myBtn {
-    min-width: 68px;
-}
-
-.table th,
-.table td {
-    vertical-align: middle;
+  width: 70px;
 }
