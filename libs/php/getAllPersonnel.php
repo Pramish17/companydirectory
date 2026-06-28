@@ -1,10 +1,6 @@
 <?php
 
-// example use from browser
-// http://localhost/companydirectory/libs/php/getAllPersonnel.php
 // optional params: departmentID, locationID, search
-
-// remove next two lines for production
 
 ini_set('display_errors', 'Off');
 ini_set('log_errors', 'On');

@@ -1,10 +1,5 @@
 <?php
 
-// example use from browser
-// http://localhost/companydirectory/libs/php/insertDepartment.php?name=Test&locationID=1
-
-// remove the next two lines in production
-
 ini_set('display_errors', 'Off');
 ini_set('log_errors', 'On');
 error_reporting(E_ALL);
@@ -50,8 +45,6 @@ try {
     exit;
 
 }
-
-// use $_POST in production
 
 $query->bind_param("si", $_REQUEST['name'], $_REQUEST['locationID']);
 $query->execute();

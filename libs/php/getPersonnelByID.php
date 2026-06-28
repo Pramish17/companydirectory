@@ -1,10 +1,5 @@
 <?php
 
-// example use from browser
-// http://localhost/companydirectory/libs/php/getPersonnelByID.php?id=1
-
-// remove next two lines for production	
-
 ini_set('display_errors', 'Off');
 ini_set('log_errors', 'On');
 error_reporting(E_ALL);
@@ -49,8 +44,6 @@ try {
 
     exit;
 }
-
-// use $_POST in production
 
 $query->bind_param("i", $_REQUEST['id']);
 $query->execute();

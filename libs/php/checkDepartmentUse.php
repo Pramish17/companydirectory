@@ -1,10 +1,5 @@
 <?php
 
-// example use from browser
-// http://localhost/companydirectory/libs/php/checkDepartmentUse.php?id=<id>
-
-// remove next two lines for production	
-
 ini_set('display_errors', 'Off');
 ini_set('log_errors', 'On');
 error_reporting(E_ALL);

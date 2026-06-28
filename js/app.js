@@ -6,7 +6,6 @@ var path = "libs/php/";
 // keep it in place. Multi-user solution: data is always re-fetched, never cached.
 var personnelFilter = { departmentID: "", locationID: "" };
 
-
 // =================================================================
 // TABLE LOADERS
 // =================================================================
@@ -157,7 +156,6 @@ function loadLocations() {
 // Populate the personnel table on first load
 loadPersonnel();
 
-
 // =================================================================
 // HEADER BUTTONS
 // =================================================================
@@ -246,7 +244,6 @@ $("#locationsBtn").click(function () {
   loadLocations();
 
 });
-
 
 // =================================================================
 // PERSONNEL MODALS
@@ -438,7 +435,6 @@ $("#deletePersonnelForm").on("submit", function (e) {
     }
   });
 });
-
 
 // =================================================================
 // DEPARTMENT MODALS
@@ -633,7 +629,6 @@ $("#deleteDepartmentForm").on("submit", function (e) {
   });
 });
 
-
 // =================================================================
 // LOCATION MODALS
 // =================================================================
@@ -785,7 +780,6 @@ $("#deleteLocationForm").on("submit", function (e) {
     }
   });
 });
-
 
 // =================================================================
 // FILTER MODAL
